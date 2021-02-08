@@ -1,0 +1,53 @@
+
+ /* ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 520px*/
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.navbar-toggler-icon{
+	color: white!important;
+}
+.navbar-toggler{
+	color: white!important;
+}
+header button{
+	color: white!important;
+}
+navbar-toggler-icon{
+	color: white!important;
+}
+header{
+	background: black;
+}
+.headerbanner{
+	height: 75vh;
+}  
+.banner-element {
+    margin-top: 0px;
+    height: 0vh;
+    display: block;
+    padding-left: 0!important;
+    text-align: center;
+    padding-top: 200px;
+}
+ol, ul{
+	padding-left: 0!important;
+}
+.icon ul li{
+	    padding-right: 15px;
+    padding-left: 20px;
+}
+.number ul li{
+	padding-right: 15px;
+    padding-left: 19px;
+}
+ol, ul{
+	padding-left: 0!important;
+}
+.banner-text{
+	    font-size: 55px!important;
+    padding-bottom: 20px;
+}
+
+}

@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+header{
+	background: black;
+}
+.headerbanner{
+	width: 100%;
+	background-image: url(../img/pic1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+.nav-link{
+	color: white!important;
+}
+.navbar-brand{
+	color: white!important;
+
+}
+.icon ul li{
+	display: inline-block;
+	padding-right: 50px;
+    padding-left: 50px;
+}
+.icon ul li a i{
+
+  height: 40px;
+  text-align: center;
+  width: 40px;
+  background-color: #fefefe;
+  color: black;
+  font-size: 18px;
+  line-height: 40px;
+  border-radius:60%;
+  transition: 0.5s ease-in-out;
+}
+.icon ul li a i:hover{
+	transform: scale(1.2);
+	transition: 0.5s ease-in-out;
+	background-color: red;
+    color: white;
+
+}
+.banner-text{
+  text-align: center;
+  color: orange;
+  font-size: 100px!important;
+  padding-bottom: 30px;
+}
+.icon{
+	text-align: center;
+}
+.number ul li{
+	display: inline-block;
+	padding-right: 50px;
+    padding-left: 49px;
+    font-size: 24px;
+}
+.number{
+	
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+.banner-element{
+	text-align: center;
+    padding-top: 320px;
+}
+.image-slider{
+	width: 100%;
+	padding: 100px 0;
+	background: skyblue;
+
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+
+}
+.single-progressbar .title {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.single-progressbar {
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card .card-header .title {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.card .card-body code {
+    background-color: #efecec;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.header .title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header .title::first-letter {
+    color: #fc4444;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 40px;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+ul.menu li a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 500ms;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    color: #fc4444;
+}
+
+ul.menu li+li {
+    margin-left: 25px;
+}
+.bar-header{
+  text-align: center;
+    margin: 50px;
+}
